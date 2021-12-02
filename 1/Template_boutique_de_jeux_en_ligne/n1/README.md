@@ -15,7 +15,7 @@ Vous devez être en mesure de :
 - Utiliser les sélecteurs CSS
 - Calculer la spécificité du CSS
 
-#Travail à faire
+# Travail à faire
 
 1. Créer un fichier nommé `index.html`.
 2. Écrire la définition correcte `doctype` pour que la page soit un document valide HTML5.
