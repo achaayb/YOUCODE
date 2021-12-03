@@ -8,4 +8,4 @@ Vous devez être en mesure de :
 
 Vous êtes un développeur front-end travaillant pour une start-up technologique. On vous a demandé de créer une page d'accueil pour le magasin de vidéo en ligne. Le web designer vous a donné la maquette suivante :
 
-![maquette](https://raw.githubusercontent.com/achaayb/YOUCODE/blob/master/1/Page_daccueil_du_magasin_de_vid%C3%A9o/n1/img/maquette.png)
+![maquette](img/maquette.png)
