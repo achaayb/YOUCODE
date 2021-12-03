@@ -18,6 +18,11 @@ nav ul li a{
     color: black;
     text-decoration: none;
 }
+
+nav ul li a b:hover{
+    text-decoration: underline;
+}
+
 nav ul li img{
     width: 150px;
 }
