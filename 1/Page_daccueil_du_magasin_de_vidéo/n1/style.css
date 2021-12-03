@@ -1,0 +1,62 @@
+body {
+    margin: 10px;
+}
+
+nav {
+    width : 100%;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 10px;
+    display: inline;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li img{
+    width: 150px;
+}
+
+header .breadcrumb{
+    padding: 0;
+    list-style: none;
+}
+header .breadcrumb li{
+    display: inline;
+}
+header .breadcrumb li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+header .breadcrumb li:not(:first-child)::before{
+    content: " \/ ";
+}
+
+.meta{
+    width: 50%;
+}
+
+
+.product_card{
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.product_card_content{
+    padding : 10px
+}
+
+.product_card_content p{
+    margin : 20px 0px 0px 0px;
+    padding : 0;
+}
