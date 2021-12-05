@@ -8,4 +8,4 @@ Vous devez être en mesure de :
 
 Vous êtes un développeur front-end travaillant pour une start-up technologique. On vous a demandé de créer une page d'accueil pour le magasin de vidéo en ligne. Le web designer vous a donné la maquette suivante :
 
-[maquette](maquette.png)
+![maquette](maquette.png)
