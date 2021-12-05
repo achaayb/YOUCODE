@@ -1,5 +1,7 @@
 # YOUCODE
 
+![youcode](https://youcode.ma/images/logo.png)
+
 “Be the change that you wish to see in the world.”― Mahatma Gandhi
 
 ## représentation de mes études à youcode
