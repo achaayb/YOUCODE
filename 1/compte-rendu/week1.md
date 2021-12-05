@@ -1,9 +1,9 @@
-# compte-rendu
+# week 1
 
 “The only way to learn a new programming language is by writing programs in it.”
 -- Dennis Ritchie
 
-## week 1
+### Introduction
 
 cette semaine a commencé par quelques notions de base sur le web et internet, puis nous avons eu des veilles et des briefs listés ci-dessous
 
