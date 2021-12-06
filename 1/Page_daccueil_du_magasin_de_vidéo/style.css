@@ -56,12 +56,12 @@ header .breadcrumb li:not(:first-child)::before{
     border-style: solid;
     border-width: 1px;
     width: 300px;
-    margin: 0px;
+    margin: 2px;
     display: inline-block;
 }
 
 .product_card_content{
-    padding : 10px
+    margin: 10px;
 }
 
 .product_card_content p{
