@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire de recherche</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <input id="recherche" name="recherche" placeholder="Recherche" type="text">
+            <div class="cnt">
+                  <select name="prix" id="prix">
+                      <option value="" disabled selected hidden>Prix</option>
+                      <option value="volvo">20k-30k</option>
+                      <option value="saab">30k-50k</option>
+                      <option value="mercedes">50k-80k</option>
+                      <option value="audi">80k+</option>
+                    </select>
+                  <select name="nchambres" id="nchambres">
+                    <option value="" disabled selected hidden>Chambres</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    </select>
+                <select name="type" id="type">
+                    <option value="" disabled selected hidden>Type</option>
+                    <option value="">Appartement</option>
+                    <option value="">Villa</option>
+                    <option value="">Appartement Duplex</option>
+                    <option value="">Studio</option>
+                    </select>
+                <label for="inclure">inclure les propriétés vendues</label>
+                <input type="checkbox" id="inclure" name="inclure">
+                <input id="submit" type="submit">
+                  
+              </div>
+            </form>
+    </div>
+</body>
+</html>

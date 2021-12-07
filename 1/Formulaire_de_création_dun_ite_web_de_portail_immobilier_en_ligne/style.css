@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://d16w27tmajdc15.cloudfront.net/img/new/slide/Raffles-Seychelles-home-page-600K.jpg");
+}
+
+.container {
+    background-color: rgba(209, 221, 253, 0.4);
+    width: 80vh;
+    padding: 15px;
+    margin: 50vh auto 0px auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    align-items: center;
+    text-align: center;
+}
+
+.container form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+input, select {
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    height : 50px;
+    vertical-align: middle;
+}
+
+#recherche {
+    width: 100%;
+}
+#prix {
+    width: 90px;
+}
+#nchambres{
+    width: 100px;
+}
+#inclure{
+    width: 25px;
+}
+#submit{
+    width: 90px;
+    background-color: #9de3f5;
+    border-radius: 5px;
+}
+
+.cnt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+}
