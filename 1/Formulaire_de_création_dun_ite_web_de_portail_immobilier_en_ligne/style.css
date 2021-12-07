@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
 body {
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("https://d16w27tmajdc15.cloudfront.net/img/new/slide/Raffles-Seychelles-home-page-600K.jpg");
 }
 
 .container {
+    font-family: 'Open Sans', sans-serif;
     background-color: rgba(209, 221, 253, 0.4);
     width: 80vh;
     padding: 15px;
