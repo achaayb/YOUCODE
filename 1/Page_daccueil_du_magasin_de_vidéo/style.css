@@ -68,3 +68,7 @@ header .breadcrumb li:not(:first-child)::before{
     margin : 20px 0px 0px 0px;
     padding : 0;
 }
+
+.product_card_content img{
+    width: 100%;
+}
