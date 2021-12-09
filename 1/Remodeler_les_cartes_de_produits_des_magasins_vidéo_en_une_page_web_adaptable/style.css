@@ -1,0 +1,119 @@
+body {
+    margin: 10px;
+}
+
+nav {
+    width : 100%;
+}
+nav ul {
+    padding: 0px;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 10px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.meta{
+    width: 50%;
+}
+@media screen and (max-width: 700px) {
+    nav ul li {
+        margin-top: 10px;
+        display: block;
+    }
+
+    nav ul li a{
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header .breadcrumb {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header nav ul li:first-child {
+        background-color: black;
+    }
+
+    section h1{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section .meta {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    section .product_card {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a b:hover{
+    text-decoration: underline;
+}
+
+nav ul li img{
+    width: 150px;
+}
+
+header .breadcrumb{
+    padding: 0px;
+    list-style: none;
+}
+header .breadcrumb li{
+    display: inline;
+}
+
+header .breadcrumb li a{
+    color: black;
+    text-decoration: none;
+}
+
+header .breadcrumb li a:hover{
+    text-decoration: underline;
+}
+
+header .breadcrumb li:not(:first-child)::before{
+    content: " \/ ";
+}
+
+
+
+.product_card{
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    margin: 2px;
+    display: inline-block;
+}
+
+.product_card_content{
+    margin: 10px;
+}
+
+.product_card_content p{
+    margin : 20px 0px 0px 0px;
+    padding : 0;
+}
+
+.product_card_content img{
+    width: 100%;
+}
