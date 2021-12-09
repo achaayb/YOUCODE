@@ -117,3 +117,11 @@ header .breadcrumb li:not(:first-child)::before{
 .product_card_content img{
     width: 100%;
 }
+
+@media print
+{    
+    nav, .breadcrumb
+    {
+        display: none !important;
+    }
+}
