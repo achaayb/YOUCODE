@@ -1,0 +1,36 @@
+footer {
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+}
+
+footer .right {
+    display: flex;
+}
+
+footer .left img {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+
+footer ul {
+    margin-left: 20px;
+    list-style: none;
+}
+
+footer ul li{
+    margin-top : 10px;
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        display: block;
+    }
+}
