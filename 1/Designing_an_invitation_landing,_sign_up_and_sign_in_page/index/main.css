@@ -1,11 +1,12 @@
 main .hero {
     background-color: black;
     border-radius: 4px;
-    height : 250px;
+    height : fit-content;
     margin-top: 10px;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 main .hero .left{
@@ -150,6 +151,7 @@ main .hero .left .google img{
 }
 
 main .hero .left .more{
+    margin-top: 5px;
     width : 190px;
     height: 40px;
     background-color: white;
@@ -217,5 +219,6 @@ main .gallery img {
     main .rewards .left{
         display: none;
     }
+
 }
 

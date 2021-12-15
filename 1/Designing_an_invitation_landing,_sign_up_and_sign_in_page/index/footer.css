@@ -21,8 +21,11 @@ footer .left img {
 }
 
 footer ul {
-    margin-left: 20px;
     list-style: none;
+}
+
+footer ul:not(:first-child) {
+    margin-left: 20px;
 }
 
 footer ul li{
@@ -30,7 +33,7 @@ footer ul li{
 }
 
 @media screen and (max-width: 900px) {
-    footer {
-        display: block;
+    footer .right {
+        display: none;
     }
 }
