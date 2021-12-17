@@ -6,13 +6,13 @@ Vous êtes un développeur polyvalent travaillant dans une agence de communicati
 - Réaliser et intégrer le désigne de la page Sign up du site.
 - Réaliser et intégrer le désigne de la page Sign in du site.
 
-### Page d'acceuil et intégration
+### Page d'acceuil
 
 ![maquette index](index/index.png)
 
 [page d'accueil](https://achaayb.github.io/YOUCODE/1/Designing_an_invitation_landing,_sign_up_and_sign_in_page/index/)
 
-### Page Signup et Signin
+### Signup et Signin
 
 ![maquette Signin](login-register/login.png)
 
