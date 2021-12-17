@@ -1,0 +1,59 @@
+main {
+    height : 60vh;
+    width : 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF1EA;
+    margin-top: 20vh;
+    display: flex;
+    min-width: 500px;
+    min-height: 320px;
+}
+
+main img{
+    display: inline;
+    width: auto;
+    height: 100%;
+}
+
+main .login {
+    width: 100%;
+}
+
+main .login h1 {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .login input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 30px;
+    width: 80%;
+}
+
+#register {
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 30px;
+    width: 40%;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-image: linear-gradient(to right,rgb(255, 182, 45), rgb(160, 4, 160));
+}
+
+
+@media screen and (max-width: 700px) {
+    main img {
+        display: none;
+    }
+    main {
+        min-width: 80%;
+    }
+}
