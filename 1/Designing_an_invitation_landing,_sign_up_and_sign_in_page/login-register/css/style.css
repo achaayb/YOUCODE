@@ -33,6 +33,7 @@ main .login input {
     margin-top: 10px;
     height: 30px;
     width: 80%;
+    box-sizing: border-box;
 }
 
 #register {
