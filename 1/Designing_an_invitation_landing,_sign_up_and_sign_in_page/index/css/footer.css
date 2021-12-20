@@ -32,6 +32,11 @@ footer ul li{
     margin-top : 10px;
 }
 
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width: 900px) {
     footer .right {
         display: none;
